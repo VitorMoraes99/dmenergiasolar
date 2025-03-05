@@ -95,9 +95,24 @@ header img {
 #servicos p {
     color: #707070;
     font-size: 28px;
-    max-width: 10000px;
+    max-width: 1000px; 
+    margin: 0 auto;   
+    gap: 10px;
+    text-align: justify; 
+    line-height: 1.6; 
+}
+
+#servicos ul {
+    text-align: left;
+    max-width: 900px; 
     margin: 0 auto;
-    gap: 10px
+    padding: 0;
+}
+
+#servicos ul li {
+    font-size: 28px;
+    color: #505050;
+    margin-bottom: 10px;
 }
 
 .video-container {
@@ -112,7 +127,7 @@ header img {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .video-container iframe {
@@ -123,6 +138,7 @@ header img {
     height: 100%;
     border-radius: 10px;
 }
+
 footer {
     background-color: #1a1a1a;
     color: white;
