@@ -28,6 +28,12 @@ header {
 
 header img {
     width: 120px;
+    pointer-events: auto;
+}
+
+header a {
+    position: relative;
+    z-index: 10;
 }
 
 .banner {
